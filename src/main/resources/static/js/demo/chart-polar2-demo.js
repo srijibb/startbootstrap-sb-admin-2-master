@@ -7,13 +7,7 @@ var ctx = document.getElementById("myPolarChart2");
 var myPieChart = new Chart(ctx, {
     type: 'polarArea',
     data: {
-        labels: [
-            'Red',
-            'Green',
-            'Yellow',
-            'Grey',
-            'Blue'
-        ],
+        labels: ['CHANNEL', 'DIRECT', 'OEM', 'AWS STRATEGIC RESELL', 'DELL VMC RESELL'],
         datasets: [{
             label: 'My First Dataset',
             data: [11, 16, 7, 3, 14],
