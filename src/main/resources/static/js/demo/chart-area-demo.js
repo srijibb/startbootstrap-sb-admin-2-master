@@ -33,7 +33,7 @@ var ctx = document.getElementById("myAreaChart");
 var myLineChart = new Chart(ctx, {
     type: 'line',
     data: {
-        labels: ['Promotion', 'Online Event', 'F2F Event', 'Sales Play', 'Tool', 'Email', 'Web', 'Social and Communities', 'Social Outreach'],
+        labels: ['21Q1', '21Q2', '21Q3', '21Q4'],
         datasets: [{
             label: "Won",
             lineTension: 0.3,
@@ -47,7 +47,7 @@ var myLineChart = new Chart(ctx, {
             pointHoverBorderColor: "rgba(78, 115, 223, 1)",
             pointHitRadius: 10,
             pointBorderWidth: 2,
-            data: [18005, 15034,  6728,  5905,  3597,  1644,  1010,   476,   230],
+            data: [22165, 15097, 10110,  5257],
         },
             {
                 label: "Lost",
@@ -62,7 +62,7 @@ var myLineChart = new Chart(ctx, {
                 pointHoverBorderColor: "rgba(78, 115, 223, 1)",
                 pointHitRadius: 10,
                 pointBorderWidth: 2,
-                data: [41759, 37746, 16025, 14893,  9691,  5678,  1691,  1101,   680],
+                data: [55904, 39943, 23874,  9543],
             }
         ],
     },
