@@ -10,7 +10,7 @@ var myPieChart = new Chart(ctx, {
         labels: ['CHANNEL', 'DIRECT', 'OEM', 'AWS STRATEGIC RESELL', 'DELL VMC RESELL'],
         datasets: [{
             label: 'My First Dataset',
-            data: [11, 16, 7, 3, 14],
+            data: [11.68818884,  8.97017782,  7.4639366 ,  5.88332239,  4.94164242],
             backgroundColor: [
                 'rgb(255, 99, 132)',
                 'rgb(75, 192, 192)',

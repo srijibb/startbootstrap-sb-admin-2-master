@@ -7,11 +7,12 @@ var ctx = document.getElementById("myRadarChart");
 var myPieChart = new Chart(ctx, {
     type: 'radar',
     data : {
-        labels: ['Promotion', 'Online Event', 'Sales Play', 'F2F Event', 'Web', 'Email'],
+        labels: ['Online Training', 'Prospecting Intelligence', 'Contact Us', 'Search',
+            'Summit'],
         datasets: [{
             label: 'Won',
-            data: [34.21117635, 12.78382641, 11.22004978,  6.8346349 ,
-                3.12375306,  28.56599973],
+            data: [100.        ,  92.92763158,  92.59868421,  89.63815789,
+                65.29605263],
             fill: true,
             backgroundColor: 'rgba(255, 99, 132, 0.2)',
             borderColor: 'rgb(255, 99, 132)',
@@ -21,8 +22,8 @@ var myPieChart = new Chart(ctx, {
             pointHoverBorderColor: 'rgb(255, 99, 132)'
         }, {
             label: 'Lost',
-            data: [32.30520485, 12.39710979, 11.5213826 ,  7.49706028,
-                4.39256096, 29.20070553],
+            data: [100.        ,  95.2353283 ,  87.27484021,  74.25915166,
+                64.43927949],
             fill: true,
             backgroundColor: 'rgba(54, 162, 235, 0.2)',
             borderColor: 'rgb(54, 162, 235)',

@@ -12133,3 +12133,18 @@ footer.sticky-footer .copyright {
 body.sidebar-toggled footer.sticky-footer {
     width: 100%;
 }
+.won-color{
+    color: rgb(255, 99, 132) !important;
+}
+.lost-color{
+    color: rgb(54, 162, 235) !important;
+}
+.cyan-color{
+    color: rgb(75, 192, 192) !important;
+}
+.yellow-color{
+    color: rgb(255, 205, 86) !important;
+}
+.grey-color{
+    color: rgb(201, 203, 207) !important;
+}
