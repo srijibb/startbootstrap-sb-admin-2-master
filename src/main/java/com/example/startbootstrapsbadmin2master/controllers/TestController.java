@@ -11,14 +11,16 @@ public class TestController {
 
 
 
-        @RequestMapping(value = "/index.html")
-        public String hello() {
+    @RequestMapping(value = "/index.html")
+    public String hello(Model model) {
             return "index";
         }
+
     @RequestMapping(value = "/tables.html")
-    public String tables() {
+    public String tables(Model model) {
         return "tables";
     }
+
     @RequestMapping(value = "/charts.html")
     public String charts(Model model)
     {
@@ -26,5 +28,41 @@ public class TestController {
         //obj.sav(input);
         return "charts";
 
+    }
+
+    @RequestMapping(value = {"/","/login.html"})
+    public String login(Model model)
+    {
+        return "login";
+    }
+
+    @RequestMapping(value = "/register.html")
+    public String register(Model model)
+    {
+        return "register";
+    }
+
+    @RequestMapping(value = "/forgot-password.html")
+    public String forget_password(Model model)
+    {
+        return "forgot-password.html";
+    }
+
+    @RequestMapping(value = "/blank.html")
+    public String blank(Model model)
+    {
+        return "blank";
+    }
+
+    @RequestMapping(value = "/404.html")
+    public String error(Model model)
+    {
+        return "404";
+    }
+
+    @RequestMapping(value = "utilities-animation.html")
+    public String animations(Model model)
+    {
+        return "utilities-animation";
     }
 }
