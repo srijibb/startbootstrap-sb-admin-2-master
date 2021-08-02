@@ -60,9 +60,20 @@ public class TestController {
         return "404";
     }
 
-    @RequestMapping(value = "utilities-animation.html")
+    @RequestMapping(value = "/utilities-animation.html")
     public String animations(Model model)
     {
         return "utilities-animation";
     }
+
+    @RequestMapping(value = "/cards.html")
+    public String cards(Model model){
+        return "cards";
+    }
+
+    @RequestMapping(value = "/buttons.html")
+    public String buttons(Model model){
+        return "buttons";
+    }
+
 }
