@@ -12139,6 +12139,12 @@ body.sidebar-toggled footer.sticky-footer {
 .lost-color{
     color: rgb(54, 162, 235) !important;
 }
+.green-color{
+    color: rgb(21, 161, 72) !important;
+}
+.red-color{
+    color: rgb(255, 0, 0) !important;
+}
 .cyan-color{
     color: rgb(75, 192, 192) !important;
 }
