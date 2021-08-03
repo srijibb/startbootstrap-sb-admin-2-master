@@ -12154,3 +12154,32 @@ body.sidebar-toggled footer.sticky-footer {
 .grey-color{
     color: rgb(201, 203, 207) !important;
 }
+.ml4 {
+    /*position: relative;*/
+    font-weight: 900;
+    font-size: 4.5em;
+}
+.ml4 .letters {
+    /*position: absolute;*/
+    margin: auto;
+    left: 0;
+    top: 0.3em;
+    right: 0;
+    opacity: 0;
+}
+.white-color{
+    color: rgb(255, 255, 255) !important;
+}
+.analytics-div{
+    background-color: #ffffff;
+    border: 2.5px solid #4e73df;
+    border-bottom: 0px;
+    border-radius: 3px;
+    border-bottom-left-radius: 0px;
+    border-bottom-right-radius: 0px;
+}
+.analytics-header {
+    margin: 3px;
+    margin-left: 27px;
+    font-family: 'Nunito', sans-serif;
+}
